@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13fb40b5-f671-4d28-8544-835e5f5ec140" name="Default Changelist" comment="Add OTHire">
+      <change afterPath="$PROJECT_DIR$/.idea/ClassicTibiaServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySql_Schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/actions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/lib/actions.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/blueberry_bush.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/decayto_item.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/decrement.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/default.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/doors/door_locked.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/doors/door_open_horizontal.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/doors/door_open_vertical.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/doors/gateofexp_closed.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/doors/questdoor_closed.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/enchanting.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/fishing_rod.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/foods/food.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/furniture_package.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/increment.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/key.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/liquids/containers.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/machete.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/make_bread.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/musical_instrument.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/pick.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/piggy_bank.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/pumpkinhead.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/rope.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/scythe.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/shovel.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/spellbook.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/system.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/teleport.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/actions/scripts/watch_clock.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/admin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/creaturescripts/creaturescripts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/creaturescripts/lib/creaturescripts.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/creaturescripts/scripts/exp_stage.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/creaturescripts/scripts/firstitems.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/creaturescripts/scripts/give_bag_after_death.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/creaturescripts/scripts/login.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/creaturescripts/scripts/lookplayer.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/creaturescripts/scripts/lootmessage.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/creaturescripts/scripts/record.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/creaturescripts/scripts/removeblesses.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/creaturescripts/scripts/sendlogininfo.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/global.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/globalevents/globalevents.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/globalevents/lib/globalevents.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/globalevents/scripts/serversave.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/items.otb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/items.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lib/calculator.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lib/db.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lib/exp_stages.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lib/functions.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lib/house.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lib/lib.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/amazon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/ancient scarab.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/assassin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/badger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bandit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/banshee.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bear.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/behemoth.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/beholder.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/black knight.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/black sheep.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/blue djinn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bonebeast.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/ashmunrah.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/demodras.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/dharalion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/dipthrah.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/fernfang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/general murius.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/grorlam.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/mahrdis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/morguthis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/necropharus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/omruc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/orshabaal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/rahemos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/thalas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/the evil eye.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/the halloween hare.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/the horned fox.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/the old widow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/tiquandas revenge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bosses/vashresamun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/bug.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/butterfly blue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/butterfly purple.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/butterfly red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/butterfly yellow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/butterfly.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/carniphila.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/cave rat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/centipede.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/chicken.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/cobra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/crab.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/crocodile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/crypt shambler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/cyclops.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/dark monk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/deer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/demon skeleton.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/demon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/dog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/dragon lord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/dragon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/dwarf geomancer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/dwarf guard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/dwarf soldier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/dwarf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/dworc fleshhunter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/dworc venomsniper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/dworc voodoomaster.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/efreet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/elder beholder.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/elephant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/elf arcanist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/elf scout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/elf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/fire devil.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/fire elemental.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/flamingo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/frost troll.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/gargoyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/gazer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/ghost.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/ghoul.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/giant spider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/goblin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/green djinn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/hero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/hunter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/hyaena.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/hydra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/kongra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/larva.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/lich.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/lion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/lizard sentinel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/lizard snakecharmer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/lizard templar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/marid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/merlkin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/minotaur archer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/minotaur guard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/minotaur mage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/minotaur.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/monk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/monsters.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/mummy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/necromancer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/orc berserker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/orc leader.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/orc rider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/orc shaman.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/orc spearman.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/orc warlord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/orc warrior.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/orc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/panda.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/parrot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/pig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/poison spider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/polar bear.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/priestess.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/rabbit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/rat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/rotworm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/scarab.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/scorpion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/serpent spawn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/sheep.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/sibang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/skeleton.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/skunk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/slime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/slime2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/smuggler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/snake.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/special/deathslicer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/special/demongoblin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/special/flamethrower.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/special/magicthrower.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/special/orcraid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/special/orcwarlordraid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/special/plaguethrower.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/special/shredderthrower.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/spider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/spit nettle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/stalker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/stone golem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/swamp troll.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/tarantula.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/terror bird.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/tiger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/troll.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/valkyrie.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/vampire.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/war wolf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/warlock.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/wasp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/wild warrior.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/winter wolf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/witch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/wolf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/monster/yeti.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/movements/lib/movements.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/movements/movements.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/movements/scripts/citizen.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/movements/scripts/doors/door_close_horizontal.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/movements/scripts/doors/door_close_vertical.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/movements/scripts/doors/onadd_lockeddoor.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/movements/scripts/increment.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/movements/scripts/switch_tile.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/movements/scripts/trap.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/npc/scripts/lib/custom modules.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/npc/scripts/lib/npc.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/npc/scripts/lib/npcsystem/keywordhandler.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/npc/scripts/lib/npcsystem/modules.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/npc/scripts/lib/npcsystem/npchandler.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/npc/scripts/lib/npcsystem/npcsystem.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/npc/scripts/lib/npcsystem/queue.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/npc/scripts/test.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/npc/test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raids/raids.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/lib/spells.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/berserk.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/energy_beam.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/energy_field.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/energy_strike.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/energy_wall.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/energy_wave.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/energybomb.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/envenom.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/explosion.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/fire_field.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/fire_wall.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/fire_wave.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/fireball.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/firebomb.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/flame_strike.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/force_strike.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/great_energy_beam.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/great_fireball.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/heavy_magic_missile.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/light_magic_missile.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/poison_bomb.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/poison_field.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/poison_storm.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/poison_wall.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/soulfire.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/sudden_death.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/attack/ultimate_explosion.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/healing/antidote.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/healing/antidote_rune.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/healing/heal_friend.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/healing/intense_healing.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/healing/intense_healing_rune.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/healing/light_healing.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/healing/mass_healing.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/healing/ultimate_healing.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/healing/ultimate_healing_rune.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/djinn electrify area.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/djinn electrify.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_ancientscarab.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_assassin.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_behemoth.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_darkmonk.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_dharalion.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_dworcvoodoomaster.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_fernfang.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_gazer.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_giantspider.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_grorlam.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_kongra.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_monk.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_morguthis.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_oldwidow.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_orcberserker.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_orcrider.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_orshabaal.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_scarab.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_serpentspawn.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_sibang.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_tarantula.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_tiger.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/haste_wildwarrior.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_ancientscarab.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_ancientscarab2.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_ashmunrah.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_banshee.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_carniphila.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_dipthrah.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_dworcvoodoomaster.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_efreet.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_elderbeholder.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_evileye.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_hydra.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_lich.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_mahrdis.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_marid.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_morguthis.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_mummy.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_oldwidow.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_omruc.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_rahemos.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_serpentspawn.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_thalas.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_thalas2.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_vampire.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_vashresamun.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/paralyze_warlock.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/skills_dipthrah.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/monster/skills_morguthis.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/support/animate_dead_rune.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/support/cancel_invisibility.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/support/challenge.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/support/desintegrate_rune.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/support/destroy_field_rune.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/support/great_light.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/support/haste.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/support/invisible.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/support/light.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/support/magic_rope.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/support/magic_shield.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/support/magic_wall_rune.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/support/paralyze_rune.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/support/strong_haste.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/support/ultimate_light.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/support/undead_legion.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/scripts/support/wild_growth.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spells/spells.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/lib/talkactions.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/accessonlinelist.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/banmanager.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/broadcastclass.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/buyhouse.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/canuseshare.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/closeserver.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/createitembyid.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/createitembyidfront.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/createitembyname.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/createitembynamefront.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/floorchange.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/frags.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/gethouse.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/getinfo.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/gminvisible.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/housecleaning.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/houseinfo.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/kickplayer.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/leavehouse.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/mc.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/onlinelist.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/openserver.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/placemonster.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/placesummon.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/refreshmap.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/reload.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/removething.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/saveserver.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/serverinfo.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/sethouseowner.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/shareexp.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/shutdown.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/teleporthere.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/teleportmasterpos.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/teleportntiles.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/teleportto.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/teleporttotown.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/testeffect.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/war.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/scripts/znoteshop.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/talkactions/talkactions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/vocations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/weapons/lib/weapons.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/weapons/scripts/explosive_arrow.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/weapons/scripts/poison_arrow.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/weapons/weapons.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/world/world-house.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/world/world-spawn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/world/world.otbm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iconv.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libmySQL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libxml2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lua51.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mpir.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/othire_win32.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/COMPILING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/README.DATABASE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/account.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/actions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/actions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/admin.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/admin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/allocator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/allocator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/autogen.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/ban.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/ban.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/baseevents.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/baseevents.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/beds.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/beds.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/chat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/chat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/combat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/combat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/compiler/gcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/compiler/msvc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/compiler/workarounds.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/condition.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/condition.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/config.lua.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/configmanager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/configmanager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/configure.ac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/connection.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/connection.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/const.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/container.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/container.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/creature.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/creature.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/creatureevent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/creatureevent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/cylinder.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/cylinder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/database.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/database.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/databasemysql.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/databasemysql.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/databaseodbc.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/databaseodbc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/databasepgsql.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/databasepgsql.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/databasesqlite.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/databasesqlite.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/db.s3db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian-packaging-plan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/README.Debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/changelog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/compat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/control" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/copyright" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/dirs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/docs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/init.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/manpage.1.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/manpage.sgml.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/manpage.xml.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/otserv.default.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/otserv.doc-base.EX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/postinst.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/postrm.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/preinst.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/prerm.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/debian/watch.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/definitions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/depot.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/depot.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/enums.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/exception.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/exception.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/fileloader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/fileloader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/game.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/game.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/gendb.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/globalevent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/globalevent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/guild.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/guild.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/house.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/house.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/housetile.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/housetile.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/ioaccount.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/ioaccount.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/iomap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/iomapotbm.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/iomapotbm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/iomapserialize.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/iomapserialize.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/ioplayer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/ioplayer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/item.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/item.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/itemloader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/items.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/items.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/logger.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/logger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/luascript.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/luascript.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/mailbox.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/mailbox.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/map.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/map.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/md5.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/md5.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/monster.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/monster.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/monsters.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/monsters.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/movement.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/movement.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/networkmessage.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/networkmessage.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/npc.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/npc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/otpch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/otpch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/otserv.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/otserv.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/otsystem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/outputmessage.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/outputmessage.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/party.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/party.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/player.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/player.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/position.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/position.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/premake/premake4.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/protocol.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/protocol.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/protocolgame.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/protocolgame.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/protocollogin.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/protocollogin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/raids.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/raids.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/rsa.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/rsa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/scheduler.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/scheduler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/schema.mysql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/schema.pgsql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/schema.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/scriptmanager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/scriptmanager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/server.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/server.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sha1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sha1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/spawn.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/spawn.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/spells.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/spells.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/status.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/status.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/talkaction.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/talkaction.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/tasks.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/tasks.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/teleport.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/teleport.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/templates.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/thing.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/thing.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/tile.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/tile.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/tools.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/tools.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/town.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/trashholder.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/trashholder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/vocation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/vocation.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/waitlist.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/waitlist.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/waypoints.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/weapons.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/weapons.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zlib1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="655064510">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="md" value="565" />
+          <entry key="txt" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="565" />
+          <entry key="PLAIN_TEXT" value="52" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="387">
+                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="-1" />
+    <option name="width" value="3200" />
+    <option name="height" value="1763" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ClassicTibiaServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClassicTibiaServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13fb40b5-f671-4d28-8544-835e5f5ec140" name="Default Changelist" comment="" />
+      <created>1544781273042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544781273042</updated>
+      <workItem from="1544781274290" duration="1081000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update README to show goal of project">
+      <created>1544782200419</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544782200419</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1081000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-1" width="3200" height="1763" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12129987" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32965606" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32965606" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update README to show goal of project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README to show goal of project" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="387">
+            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
