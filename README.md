@@ -1,2 +1,6 @@
-# ClassicTibiaServer
-ClassicTibiaServer is a simple to deploy OpenTibiaServer for version 7.72
+# Classic Tibia Server
+
+Classic Tibia Server is a fork of [Tibia Legacy Server](https://github.com/peonso/tibialegacyserver) that aims for simplicity.
+
+It runs on version 7.72, uses the real global map and has a website ready for account creation.
+
